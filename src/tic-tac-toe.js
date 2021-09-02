@@ -1,13 +1,11 @@
 class TicTacToe {
-    winner = null;
-    player = 'x';
-    field = [[null, null, null],
+    constructor() {
+        this.winner = null;
+        this.player = 'x';
+        this.field = [[null, null, null],
              [null, null, null],
              [null, null, null]];
-    noTurns = false;
-
-    constructor() {
-
+        this.noTurns = false;
     }
 
     getCurrentPlayerSymbol() {
